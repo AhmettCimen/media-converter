@@ -8,7 +8,8 @@ Uygulama, PARDUS işletim sistemi üzerinde çalışabilecek şekilde tasarlanm�
 
 Projenin kurulumu, kullanımı ve özelliklerini anlatan tanıtım videosuna aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-[linkKoyucam]
+[Videoyu izlemek için tıkla](https://youtu.be/t_kmSmaPWfo)
+
 
 # Kurulum ve Sistem Gereksinimleri ⚙️
 
