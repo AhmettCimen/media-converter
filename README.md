@@ -56,10 +56,6 @@ Youtube linkinin girildiği ekran.
 
 ![YAD Link Girişi](sc/yad_youtube.png)
 
-İşlem Durumu:
-İşlem yapılırken çıkan ilerleme çubuğu.
-
-![YAD İlerleme Çubuğu](sc/yad_progress.png)
 
 ## 2. Terminal Tabanlı Kullanıcı Arayüzü (TUI - Whiptail) ⌨️
 
@@ -82,17 +78,18 @@ Linkin yapıştırıldığı ekran.
 
 ![Whiptail Link Girişi](sc/whiptail_youtube.png)
 
-İşlem Durumu:
-Terminal üzerinde dolan ilerleme çubuğu.
+Sonuç:
+Başarılı sonucun gösterildiği ekran.
 
-![Whiptail İlerleme Çubuğu](sc/whiptail_progress.png)
+![Whiptail Link Girişi](sc/whiptail_basarili.png)
+
 
 # Teknik Detaylar 🛠️
 
 Proje Bash script dili ile yazılmıştır.
 
-check_dependencies fonksiyonu eksik paketleri kontrol eder.
+check_dependencies fonksiyonu eksik paketleri kontrol eder ve eksik paket varsa yükler.
 generate_output_name fonksiyonu çıktı dosyası ismini ayarlar.
-convert_media fonksiyonu ffmpeg işlemlerini yönetir.
+convert_media fonksiyonu ffmpeg dönüştürme işlemlerini yönetir.
 download_media fonksiyonu yt-dlp işlemlerini yönetir.
 run_gui ve run_tui fonksiyonları menü döngülerini sağlar.
