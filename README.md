@@ -14,21 +14,23 @@ Projenin kurulumu, kullanımı ve özelliklerini anlatan tanıtım videosuna aş
 
 Projenin çalışabilmesi için sistemde aşağıdaki paketlerin yüklü olması gerekir:
 
-ffmpeg
-yad
-whiptail
-yt-dlp
+* ffmpeg
+* yad
+* whiptail
+* yt-dlp
 
+  
 Script çalıştırıldığında bu paketleri kontrol eder ve eksik varsa otomatik olarak kurar. Manuel kurulum yapmak isterseniz şu komutu kullanabilirsiniz:
 
+```bash
 sudo apt update
 sudo apt install ffmpeg yad whiptail yt-dlp
-
+```
 Projeyi çalıştırmak için terminali açın ve şu komutları uygulayın:
-
+```bash
 chmod +x script.sh
 ./script.sh
-
+```
 # Kullanım Kılavuzu ve Ekran Görüntüleri 🖼️
 
 Script çalıştırıldığında kullanıcıya arayüz tercihi sorulur. 1 tuşu grafik arayüzü, 2 tuşu terminal arayüzünü açar.
@@ -88,8 +90,8 @@ Başarılı sonucun gösterildiği ekran.
 
 Proje Bash script dili ile yazılmıştır.
 
-check_dependencies fonksiyonu eksik paketleri kontrol eder ve eksik paket varsa yükler.
-generate_output_name fonksiyonu çıktı dosyası ismini ayarlar.
-convert_media fonksiyonu ffmpeg dönüştürme işlemlerini yönetir.
-download_media fonksiyonu yt-dlp işlemlerini yönetir.
-run_gui ve run_tui fonksiyonları menü döngülerini sağlar.
+*check_dependencies fonksiyonu eksik paketleri kontrol eder ve eksik paket varsa yükler.    
+*generate_output_name fonksiyonu çıktı dosyası ismini ayarlar.   
+*convert_media fonksiyonu ffmpeg dönüştürme işlemlerini yönetir.   
+*download_media fonksiyonu yt-dlp işlemlerini yönetir.   
+*run_gui ve run_tui fonksiyonları menü döngülerini sağlar.   
