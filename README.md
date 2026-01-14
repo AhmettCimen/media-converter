@@ -88,7 +88,7 @@ Başarılı sonucun gösterildiği ekran.
 
 # Teknik Detaylar 🛠️
 
-Proje Bash script dili ile yazılmıştır.
+Proje Bash script dili ile yazılmıştır. Pardus işletim sisteminde test edilmiştir.
 
 *check_dependencies fonksiyonu eksik paketleri kontrol eder ve eksik paket varsa yükler.    
 *generate_output_name fonksiyonu çıktı dosyası ismini ayarlar.   
